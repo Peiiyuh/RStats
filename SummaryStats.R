@@ -34,7 +34,10 @@ install.packages(c("nycflights13", "gapminder", "Lahman")) # used
 #--------------------
 # Math
 1 / 200 * 30
-num = 1/ 200 * 30
+(num = 1/ 200 * 30)
+(num2 = 1 / 100 * 30)
+
+
 (59 + 73 + 2) / 3
 sin(pi / 2)
 
@@ -44,15 +47,27 @@ x = 3 * 4
 
 # display var
 x
+(y<-cos(1))
+(y=cos(2))
+(z=sin(5))
 
 # calling functions
 # e.g seq()  makes regular sequences of number
 seq(1, 10)
+v=seq(1,10)
+
 
 # enclose in parentheses to display automatically after assignment
 (y <- seq(1, 10, length.out = 5))
 
 ?seq()
+(y <- seq(1, 20, by=2)) # 1  3  5  7  9 11 13 15 17 19
+(y <- seq(0, 20, by=2)) # 0  2  4  6  8 10 12 14 16 18 20
+
+y[1]
+y[11]
+y[0]
+
 ?sd()
 
 # press  Alt + Shift + K and see what happens
